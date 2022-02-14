@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "hiking_pole",
+  "version": "${version}",
+  "name": "Hiking Pole",
+  "description": "Adds a hiking pole which serves as an alternative to leather boots",
+  "authors": [
+    "tired9494"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/hiking_pole/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "github.tired9494.hiking_pole.HikingPole"
+    ]
+  },
+  "mixins": [
+    "hiking_pole.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.12.12",
+    "fabric": "*",
+    "minecraft": ">=1.18"
+  }
+}

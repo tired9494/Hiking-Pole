@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  R",
+    " I ",
+    "I  "
+  ],
+  "key": {
+    "R": {
+      "item": "minecraft:rabbit_hide"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "hiking_pole:hiking_pole",
+    "count": 1
+  }
+}
+
